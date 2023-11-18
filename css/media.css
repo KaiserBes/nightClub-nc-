@@ -1,0 +1,174 @@
+@media (max-width: 1301px) {
+   .col-6 {
+      width: 100%;
+   }
+
+   .club-img-box {
+      margin: 0 0 0 10px;
+   }
+
+   #about-club {
+      height: 190vh;
+   }
+
+   .club-box h3 {
+      margin: 25px 0 20px 0;
+   }
+
+   #services {
+      height: 340vh;
+   }
+
+}
+
+
+@media (max-width: 978px) {
+   .mobile-btn {
+      display: flex;
+   }
+
+   .club-main-text {
+      font-size: 50px;
+      text-align: center;
+   }
+
+   .nav {
+      position: fixed;
+      right: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(202, 20, 153);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 30px;
+      font-size: 30px;
+      transition: all 0.3s ease 0s;
+   }
+
+   .showNav {
+      right: 0;
+   }
+
+   .main-since {
+      font-size: 24px;
+   }
+
+   .main-nc {
+      font-size: 75px;
+   }
+
+   .main-text {
+      font-size: 18px;
+   }
+
+   .adv-main-text {
+      font-size: 54px;
+   }
+
+   #services {
+      height: 300vh;
+   }
+
+   #advantages {
+      height: 110vh;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .service-text p:nth-child(1) {
+      font-size: 20px;
+   }
+
+   .service-text p:nth-child(2) {
+      font-size: 16px;
+   }
+
+   .service-text p:nth-child(3) {
+      font-size: 14px;
+   }
+
+   .service-btn button {
+      padding: 10px 25px;
+   }
+}
+
+@media (max-width: 667px) {
+   .main-since {
+      font-size: 18px;
+   }
+
+   .club-main-text {
+      font-size: 30px;
+   }
+
+   .main-nc {
+      font-size: 64px;
+   }
+
+   .main-text {
+      font-size: 12px;
+   }
+
+   .adv-main-text {
+      font-size: 35px;
+   }
+
+   #services {
+      height: 220vh;
+   }
+
+   #advantages {
+      height: 90vh;
+   }
+}
+
+
+@media (max-width: 520px) {
+   .header-btn button {
+
+      flex-wrap: nowrap;
+   }
+
+   .adv-main-text {
+      font-size: 28px;
+   }
+
+   #services {
+      height: 180vh;
+   }
+
+   #advantages {
+      height: 80vh;
+   }
+}
+
+@media screen and (max-width: 460px) {
+   .service-text p:nth-child(1) {
+      font-size: 18px;
+   }
+
+   .service-text p:nth-child(2),
+   .service-text p:nth-child(3) {
+      font-size: 14px;
+   }
+
+   .service-btn button {
+      padding: 10px 20px;
+   }
+
+   #services {
+      height: 200vh;
+   }
+}
+
+@media (max-width: 450px) {
+   #services {
+      height: 150vh;
+   }
+
+   #advantages {
+      height: 10vh;
+   }
+}
